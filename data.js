@@ -45,15 +45,15 @@ const CHANGES = [
 // 5) 수행평가
 //    score: 배점(숫자, 선택), detail: 설명(선택)
 const ASSESSMENTS = [
-  { date: "2026-10-20", subject: "미술", title: "명화 그리기", detail: "명화 프린트 필요" },
-  { date: "2026-10-16", subject: "과학A", title: "소화/순환계 발표", score: 5, detail: "발표점수 5점, 저번 시간에 발표 안한 사람만" },
-  { date: "2026-10-22", subject: "과학B", title: "전류,전압계 회로 구성 실험/측정", score: 12 },
+  { date: "2026-11-03", subject: "미술", title: "명화 그리기", detail: "명화 프린트 필요" },
+  { date: "2026-11-02", subject: "역사A", title: "조조 래빗 '비평문' 쓰기", score: 20, detail: "'감상문'이 아니라 평가하는 '비평문' 쓰기" },
+  { date: "2026-11-17", subject: "기술", title: "고무동력 자동차 만들기. 써있는 날짜까지.", score: 30 },
   { date: "2026-10-16", subject: "체육", title: "플로어볼", score: 40, detail: "화, 목요일 체육시간에도 수행평가 응시 가능" },
   { date: "2026-10-16", subject: "국어", title: "단어 찾기", detail: "수행평가 아님 / 범위: 예술어휘까지, 부모님 사인 받아오기" },
   { date: "2026-10-21", subject: "가정", title: "영양소 마블 만들기", detail: "10점 만점" },
-   { date: "2026-10-26, subject: "도덕", title: "우리 주변의 주민 참여 제도 사례 조사", detail: "사례 조사하고 실생활에 적용해보기-[정보 조사, 아이디어 검토 시 ai 사용 가능]" },
+   { date: "2026-10-26", subject: "도덕", title: "우리 주변의 주민 참여 제도 사례 조사", detail: "사례 조사하고 실생활에 적용해보기-[정보 조사, 아이디어 검토 시 ai 사용 가능]" },
    { date: "2026-10-23", subject: "수학A", title: "수행평가[서술형]", score: 20 }
-];
+]
 
 // 6) 준비물 (날짜별)
 const SUPPLIES = [
@@ -98,13 +98,13 @@ const NOTICES = [
   },
   {
     date: "2026-10-13",
-    title: "해전 게임 사이트",
+    title: "게임 모음 사이트 링크",
     content: "게임이 막히면 직접 만들어라!",
     link: "https://gwebgames.github.io/webgames/"
   },
      {
     date: "2026-10-15",
-    title: "수학 문제은행",
+    title: "수학 문제은행 사이트 링크",
     content: "반 평균 수학 올리기!",
     link: "https://gwebgames.github.io/mathbank/"
   }
