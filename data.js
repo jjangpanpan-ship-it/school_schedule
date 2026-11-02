@@ -57,7 +57,7 @@ const ASSESSMENTS = [
 
 // 6) 준비물 (날짜별)
 const SUPPLIES = [
-  { date: "2026-10-13", subject: "미술", items: ["명화 프린트"] },
+  { date: "2026-11-05", subject: "도덕", items: ["마음돌봄 책"] },
   { date: "2026-10-14", subject: "과학A", items: ["발표 전 외울 종이(선택)"] },
   { date: "2026-10-14", subject: "가정", items: ["영양소 마블 만들때 참고할 자료(선택)"] }
 ];
